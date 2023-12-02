@@ -1,0 +1,163 @@
+.app-container{
+    padding: 30px;
+    width: 90vw;
+    margin: auto;
+}
+.money-manager-header{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png");
+    padding-left:40px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 28px;
+    background-size: cover;
+    margin-bottom: 25px;
+}
+@media screen and (min-width: 768px){
+    .money-manager-header{
+        padding-left:80px;
+        padding-top: 30px;
+    }
+}
+.person-name{
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: 800;
+    color: #19293b;
+}
+.description-text{
+    color: #7e858e;
+    font-size:16px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.spaned-text{
+    color: #0b69ff;
+}
+.add-transaction-container{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 768px){
+    .add-transaction-container{
+        flex-direction: row;
+    }
+}
+.add-container{
+    border:3px solid #cbd5e1;
+    padding: 40px;
+    border-radius: 16px;
+    width: 80%;
+}
+@media screen and (min-width: 768px){
+    .add-container{
+        margin-right: 30px;
+        width: 40%;
+    }
+}
+.add-heading{
+    color: #334155;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.form{
+    max-width: 350px;
+    /* width: 80%; */
+}
+.title-container{
+    margin-bottom: 20px;
+}
+.label-text{
+    color: #7e858e;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.amount-container{
+    margin-bottom: 20px;
+}
+.type-container{
+    margin-bottom: 20px;
+}
+.input-text{
+    height: 30px;
+    width:100%;
+    border: 1px solid #7e858e;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 12px;
+}
+.drop-down-text{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #7e858e;
+    border-radius: 4px;
+    color: #334155;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.add-btn{
+    background-color: #0b69ff;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.history-container{
+    border:3px solid #cbd5e1;
+    padding: 24px;
+    border-radius: 16px;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 326px;
+    
+}
+@media screen and (min-width: 768px){
+    .history-container{
+        width: 50%;
+        margin-top: 0px;
+    }
+}
+.history-heading{
+    color: #334155;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.table-container{
+    height: 100%;
+    border-radius: 8px;
+}
+.table-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 48px;
+    list-style-type: none;
+    border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.section-details{
+    padding-left: 0;
+    margin: 0;
+}
+.option-text{
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.section{
+    color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+}
